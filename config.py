@@ -8,7 +8,7 @@ SPLIT_FILE = 1024 * 1024 * int(os.environ.get('split_file','99'))
 ROOT_PATH = 'root/'
 ACCES_USERS = os.environ.get('tl_admin_user','lil_l4chy').split(';')
 
-static_proxy = 'socks5://KKCKLGYHKKGGYKKFGICHYKDKCFREDELIDGLJ'
+static_proxy = 'http://KJCKLHYGKEGDYDKDGKCIYEDHCFRHDELDDGLF'
 PROXY = ProxyCloud.parse(static_proxy)
 
 if PROXY:
